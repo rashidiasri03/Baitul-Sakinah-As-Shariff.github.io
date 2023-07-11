@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(anak6.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+      width: 120px;
+      cursor: pointer;
+}
+.navbar ul li{
+	      list-style:none;
+	      display: inline-block;
+	      margin: 0 20px;
+	      position: relative;
+}
+.navbar ul li a{
+		text-decoration: none;
+		color:#fff;
+		text-transform: uppercase;
+}
+.navbar ul li ::after{
+		      content: '';
+		      height: 3px;
+		      width: 0%;
+		      background: #FF1493;
+		      position: absolute;
+		      left:0;
+		      bottom: -10px;
+		      transition: 0.5s;
+}
+.navbar ul li :hover::after{
+			    width: 100%;
+}
+div.sticky {
+           position: -webkit-sticky;
+           position: sticky;
+           top: 0;
+           padding: 5px;
+           background-color: #FF1493;
+           border: 2px solid #ffa500;
+	   text-align: center;
+}
+div.date{
+	 color: #fff;
+	 left: 10px;
+}
+div.picture{
+	    background-color: lightgrey;
+            width: 200px;
+            border: 10px solid  #ffa500;
+            padding: 50px;
+            margin: 10px;
+}
+#main-div{
+	  width: 90%;
+}
+#sidebar-div{
+	     width: 20%;
+	     min-height: 0px;
+	     background-color: lightblue;
+	     border: 2px outset orange;
+	     margin-top: 0px;
+	     margin-bottom: 20px;
+	     margin-right: 7px;
+	     float: right;
+	     text-align: center;
+	     line-height: 50px;
+	     
+}
+#content-div{
+	     width: 70%;
+	     min-height: 400px;
+	     background-color: black;
+	     margin-left: 90px;
+	     margin-bottom: 20px;
+	     float: left;
+	     text-align: center;
+	     line-height: 397px;
+	     
+}
+.clearfix::after{
+		 content:"";
+		 display: block;
+		 clear: both;
+}
+#content-div a{
+	       border: 2px outset orange;
+	       float:left;
+	       margin: 17px;
+	       margin-left: 37px;
+	       margin-bottom: 30px;
+	       margin-top: 30px;
+}
+h5.word {
+		 text-align: center;
+		 color: black;
+		 
+}
+h5.word a {
+	   color: darkblue;
+}				
+#footer-div{
+	    width: 84%;
+	    min-height: 30px;
+	    background-color: orange;
+	    margin-left: 90px;
+	    text-align: center;
+	    line-height: 28px;
+}
+.footer {
+         position: fixed;
+	 width: 100%;
+}
+
+.main-footer {
+	      background-color: dodgerblue;
+	      color: white;
+	      border: 2px outset orange; 
+              padding:14px 24px;  
+              clear:both; 
+              text-align:center; 
+              margin-top:48px;
+	      
+}
+a {
+   color: yellow;
+} 
+
+
+
+
+
+
